@@ -8,7 +8,7 @@
 // @remove-on-eject-end
 'use strict';
 
-const { resolveModuleName } = require('ts-pnp');
+const { resolveModuleName } = require('ts-pnp/pnpify');
 
 exports.resolveModuleName = (
   typescript,
